@@ -15,7 +15,7 @@ class LifeCellSender implements ISender
 	 *
 	 * Send multiple
 	 * $msg = (new LifeCellSender('login','password','alfaName'))->sendSingle('My message test','mobileNumber');
-	 * $msg->sendSingle('My message test','0973105044'); //SecondMessage
+	 * $msg->sendSingle('My message test','mobileNumber'); //SecondMessage
 	 * var_dump($msg->sendMessages());
 	 *
 	 * Output will be XML doc for single receiver:
